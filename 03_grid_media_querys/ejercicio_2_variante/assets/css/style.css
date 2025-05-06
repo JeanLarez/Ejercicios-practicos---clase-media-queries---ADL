@@ -1,0 +1,9 @@
+/* 
+  Estilo base (mobile first): una sola columna
+  Este archivo siempre se carga, y define el diseño para móviles
+*/
+.grid {
+  display: grid;
+  grid-template-columns: 1fr; /* Móvil: una imagen por fila */
+  gap: 10px;
+}

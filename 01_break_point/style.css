@@ -1,0 +1,12 @@
+@media (width < 576px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+}
+
+@media (width >= 576px) {
+  body {
+    background-color: #749C2C;
+  }
+}

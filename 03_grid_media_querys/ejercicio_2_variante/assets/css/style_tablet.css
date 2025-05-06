@@ -1,0 +1,7 @@
+/*
+  Estilo para pantallas medianas (≥ 768px)
+  Se agregan dos columnas para aprovechar mejor el espacio en tablets.
+*/
+.grid {
+  grid-template-columns: 1fr 1fr;
+}

@@ -1,0 +1,16 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr; /* Versión móvil: una sola columna */
+}
+
+/* A medida que se ensancha el viewport, aumentamos las columnas */
+@media (min-width: 576px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}

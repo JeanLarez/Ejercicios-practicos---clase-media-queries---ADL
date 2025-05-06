@@ -1,0 +1,21 @@
+/* Estilo base: fondo verde */
+button {
+  background-color: green;
+}
+
+/* Aumentamos la complejidad a medida que cambia el tamaño de pantalla */
+@media (min-width: 576px) {
+  button {
+    border-radius: 15px;
+  }
+}
+@media (min-width: 768px) {
+  button {
+    color: white;
+  }
+}
+@media (min-width: 992px) {
+  button {
+    display: none;
+  }
+}

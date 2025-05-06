@@ -1,0 +1,7 @@
+/*
+  Estilo para pantallas extra grandes (≥ 1200px)
+  Se utiliza una grilla de 6 columnas, ideal para monitores grandes y pantallas de escritorio amplias.
+*/
+.grid {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}

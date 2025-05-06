@@ -1,0 +1,21 @@
+/* Estilo base: color crimson */
+h3 {
+  color: crimson;
+}
+
+/* A medida que aumenta el ancho, el color va cambiando */
+@media (min-width: 576px) {
+  h3 {
+    color: purple;
+  }
+}
+@media (min-width: 768px) {
+  h3 {
+    color: green;
+  }
+}
+@media (min-width: 992px) {
+  h3 {
+    color: chocolate;
+  }
+}

@@ -1,0 +1,7 @@
+/*
+  Estilo para pantallas grandes (≥ 992px)
+  Se muestra una galería de tres columnas en laptops para mejor distribución visual.
+*/
+.grid {
+  grid-template-columns: 1fr 1fr 1fr;
+}
